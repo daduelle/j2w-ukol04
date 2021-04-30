@@ -49,6 +49,22 @@ a {
     align-items: center;
 }
 
+
+.nova {
+    width: 56em;
+    height: 28em;
+    border: 3px dotted white;
+    background-color: lightgrey;
+    color: black;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
 a:hover .vizitka {
     box-shadow: 10px 10px 10px black;
     transform: translate(-5px, -5px);
@@ -85,6 +101,15 @@ a:hover .vizitka {
     justify-content: center;
     align-items: center;
 }
+.nova-nadpis {
+    color: white;
+    min-height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .detail nav {
     margin: 1em;
@@ -103,6 +128,6 @@ a:hover .vizitka {
     width: 36em;
     height: 36em;
     border: 1px solid gray;
-    margin: 1em;
+    margin: 1em 1em 2em;
     box-shadow: 5px 5px 10px black;
 }

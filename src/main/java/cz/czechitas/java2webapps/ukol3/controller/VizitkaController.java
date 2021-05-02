@@ -2,6 +2,7 @@ package cz.czechitas.java2webapps.ukol3.controller;
 
 import cz.czechitas.java2webapps.ukol3.entity.Vizitka;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -109,13 +110,14 @@ public class VizitkaController {
 
     @PostMapping(value = "/", params = {"jmeno", "firma", "ulice", "obecPsc", "email", "telefon", "web"})
     public String append(Vizitka novaVizitka) {
-        if (novaVizitka.getEmail().equals("")) {
+        // ošetření prázdných polí ve formuláři a správné funkčnosti vkládání ikony u emailu, telefonu a webu na vizitce
+        if (ObjectUtils.isEmpty(novaVizitka.getEmail())) {
             novaVizitka.setEmail(null);
         }
-        if (novaVizitka.getTelefon().equals("")) {
+        if (ObjectUtils.isEmpty(novaVizitka.getTelefon())) {
             novaVizitka.setTelefon(null);
         }
-        if (novaVizitka.getWeb().equals("")) {
+        if (ObjectUtils.isEmpty(novaVizitka.getWeb())) {
             novaVizitka.setWeb(null);
         }
         seznamVizitek.add(novaVizitka);

